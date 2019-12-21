@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GUTSIKANA | USER</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="dashboard-container flex-style">
+        <div class="tab left-menu-nav flex-style">
+                <button class="tablinks" onclick="openDashboard(event, 'Home')">Home</button>
+                <button class="tablinks" onclick="openDashboard(event, 'Orders')">Orders</button>
+                <button class="tablinks" onclick="openDashboard(event, 'Track Orders')">Track Orders</button>
+                <button class="tablinks" onclick="openDashboard(event, 'Find Tailor')">Find Tailor</button>
+                <button class="tablinks" onclick="openDashboard(event, 'Ratings')">Your Ratings</button>
+        </div>
+
+
+        <div id="Home" class="tabcontent menu-content flex-style">
+            <div class="profile flex-style">
+                <div class="profile-image">
+                    <i class=" flex-style fa form-fill-icon  fa-user fa-lg fa-fw"></i>
+                </div>
+
+                <div class="profile-details flex-style">
+                    <h4>Name: </h4>
+                    <p>Alexandra Taylor</p>
+                    <h4>Phone: </h4>
+                    <p>020 567 8989</p>
+                    <h4>Email: </h4>
+                    <p>alexandrataylor@gmail.com</p>
+                    <h4>Location: </h4>
+                    <p>Spintex Road</p>
+                    
+
+                </div>
+            </div>
+            <div class="profile-content flex-style">
+                <div class="order-preview flex-style">
+                    <div class="order-heading order-heading-title  flex-style">
+                        <h4>Id</h4>
+                        <h4>Apparel</h4>
+                        <h4>Item Number</h4>
+                        <h4>Deadline</h4>
+                    </div>
+
+                    <div class="order-items even flex-style">
+                        <h4><input class="check-order" type="checkbox"></h4>
+                        <h4>Dress</h4>
+                        <h4>D23A567</h4>
+                        <h4>2 Months</h4>
+                    </div>
+
+                    <div class="order-items odd flex-style">
+                        <h4><input class="check-order" type="checkbox"></h4>
+                        <h4>Pant</h4>
+                        <h4>D23A568</h4>
+                        <h4>2 Weeks</h4>
+                    </div>
+
+                    <div class="order-items even flex-style">
+                        <h4><input class="check-order" type="checkbox"></h4>
+                        <h4>Dress</h4>
+                        <h4>D23A569</h4>
+                        <h4>1 Month</h4>
+                    </div>
+
+                    <div class="order-items odd flex-style">
+                        <h4><input class="check-order" type="checkbox"></h4>
+                        <h4>Blouse</h4>
+                        <h4>D23A570</h4>
+                        <h4>10 Days</h4>
+                    </div>
+
+                </div>
+
+                <div class="order-preview">
+                    <div class="orders flex-style">
+                        <div class="order-number ">D23A567</div>
+                        <div class="completion-percentage c90"></div>
+                    </div>
+
+                    <div class="orders flex-style">
+                        <div class="order-number ">D23A568</div>
+                        <div class="completion-percentage c57"></div>
+                    </div>
+
+                    <div class="orders flex-style">
+                        <div class="order-number ">D23A569</div>
+                        <div class="completion-percentage c10"></div>
+                    </div>
+
+                    <div class="orders flex-style">
+                        <div class="order-number ">D23A570</div>
+                        <div class="completion-percentage c45"></div>
+                    </div>
+                </div>
+
+                <div class="tailor-preview">t</div>
+                <div class="rating-preview flex-style">
+                    <div class="rating flex-style">
+                        <div class="rating-number ">D23A567</div>
+                        <div class="completion-percentage t90"></div>
+                    </div>
+
+                    <div class="rating flex-style">
+                        <div class="rating-number ">D23A568</div>
+                        <div class="completion-percentage t57"></div>
+                    </div>
+
+                    <div class="rating flex-style">
+                        <div class="rating-number ">D23A569</div>
+                        <div class="completion-percentage t10"></div>
+                    </div>
+
+                    <div class="rating flex-style">
+                        <div class="rating-number ">D23A570</div>
+                        <div class="completion-percentage t45"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+              
+        <div id="Orders" class=" main-orders tabcontent menu-content">
+            <div class="order-heading order-heading-title  flex-style">
+                <h4>Id</h4>
+                <h4>Apparel</h4>
+                <h4>Item Number</h4>
+                <h4>Deadline</h4>
+            </div>
+
+            <div class="order-items even flex-style">
+                <h4><input class="check-order" type="checkbox"></h4>
+                <h4>Dress</h4>
+                <h4><img src="" alt=""></h4>
+                <h4>2 Months</h4>
+            </div>
+
+            <div class="order-items odd flex-style">
+                <h4><input class="check-order" type="checkbox"></h4>
+                <h4>Pant</h4>
+                <h4><img src="" alt=""></h4>
+                <h4>2 Weeks</h4>
+            </div>
+
+            <div class="order-items even flex-style">
+                <h4><input class="check-order" type="checkbox"></h4>
+                <h4>Dress</h4>
+                <h4><img src="" alt=""></h4>
+                <h4>1 Month</h4>
+            </div>
+
+            <div class="order-items odd flex-style">
+                <h4><input class="check-order" type="checkbox"></h4>
+                <h4>Blouse</h4>
+                <h4><img src="" alt=""></h4>
+                <h4>10 Days</h4>
+            </div>
+
+            <div class="order-items even flex-style">
+                <h4><input class="check-order" type="checkbox"></h4>
+                <h4>Dress</h4>
+                <h4><img src="" alt=""></h4>
+                <h4>3 Weeks</h4>
+            </div>
+
+            <div class="order-items odd flex-style">
+                <h4><input class="check-order" type="checkbox"></h4>
+                <h4>Blouse</h4>
+                <h4><img src="" alt=""></h4>
+                <h4>4 Days</h4>
+            </div>
+             
+            <input class="signup-button add-project" type="button" name="add" value="Add New Orders">
+        </div>
+              
+        <div id="Track Orders" class=" track-orders tabcontent menu-content">
+            <div class="orders flex-style">
+                <div class="order-number ">D23A567</div>
+                <div class="completion-percentage c90"></div>
+            </div>
+
+            <div class="orders flex-style">
+                <div class="order-number ">D23A568</div>
+                <div class="completion-percentage c57"></div>
+            </div>
+
+            <div class="orders flex-style">
+                <div class="order-number ">D23A569</div>
+                <div class="completion-percentage c10"></div>
+            </div>
+
+            <div class="orders flex-style">
+                <div class="order-number ">D23A570</div>
+                <div class="completion-percentage c45"></div>
+            </div>
+
+            <div class="orders flex-style">
+                <div class="order-number ">D23A571</div>
+                <div class="completion-percentage c60"></div>
+            </div>
+
+            <div class="orders flex-style">
+                <div class="order-number ">D23A572</div>
+                <div class="completion-percentage c25"></div>
+            </div>
+            <input class="signup-button track-button"  type="button" name="tailor" value="View More Options ">
+        </div>
+
+        <div id="Find Tailor" class="tabcontent menu-content">
+            <h3>Tokyo</h3>
+            <p>Tokyo is the capital of Japan.</p>
+        </div>
+
+        <div id="Ratings" class="tabcontent menu-content">
+            <h3>Tokyo</h3>
+            <p>Tokyo is the capital of Japan.</p>
+        </div>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
